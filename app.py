@@ -101,7 +101,7 @@ def str2():
                 if min_val <= thalach <= max_val:
                         prediction_result = label
                         if label == 'Low':
-                                bg_color = 'blue'
+                                bg_color = 'lightblue'
                         elif label == 'Mild':
                                 bg_color = 'green'
                         elif label == 'High':
