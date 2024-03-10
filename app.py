@@ -91,7 +91,7 @@ def str2():
         
         # Define default values for bg_color and prediction_result
         bg_color = 'green'
-        prediction_result = 'Negative'
+        prediction_result = 'Low'
 
         # Define the ranges and corresponding labels
         ranges = [(90, 110, 'Low'), (111, 130, 'Mild'), (131, 150, 'High'), (151, float('inf'), 'Very High')]
